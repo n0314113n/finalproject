@@ -32,7 +32,12 @@ window.onload = function() {
 
 
 
-
+    $('.sequenced.images .image')
+        .transition({
+            animation: 'scale',
+            reverse: 'auto', // default setting
+            interval: 200
+        });
 
 
 
