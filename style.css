@@ -1,35 +1,44 @@
-.wide {
-    border: 2px solid black;
-    background-color: blue;
-    /* opacity: 0.1; */
-}
-
-
-/* #img {
+ .wide {
+     /* border: 1px solid pink; */
+     /* background-color: black; */
+     /* opacity: 0.1; */
+ }
+ /* #img {
+     
     z-index: 0;
-    max-width: 100%;
+    
+     max-width: 100%;
     height: auto;
 } */
-
-#imgdiv {
-    background-image: url("/img/heart.jpg");
-    z-index: -1;
-    border: 10px solid black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 60em;
-}
-
-#changeMe {
-    transition: all 2s ease-in-out;
-}
-
-#interact {
-    z-index: 5;
-    height: 60em;
-    width: 100%;
-    border: 2px solid black;
-    margin-top: -60em;
-    /* background-color: blue; */
-    /* opacity: 0.1; */
-}
+ 
+ #imgdiv {
+     background-image: url("/img/heart.jpg");
+     z-index: -1;
+     /* border: 1px solid black; */
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 60em;
+ }
+ 
+ #changeMe {
+     transition: all 2s ease-in-out;
+ }
+ 
+ #interact {
+     z-index: 5;
+     height: 60em;
+     width: 100%;
+     border: 2px solid black;
+     margin-top: -60em;
+     /* background-color: red; */
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     /* background-image: url("img/") */
+ }
+ /* #column1 {
+ border: 1px solid pink;
+ background-color: blue;
+ opacity: 0.1;
+                } */
